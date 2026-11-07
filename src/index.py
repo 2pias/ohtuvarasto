@@ -13,12 +13,14 @@ def liian_monta_lauseketta():
     b = 2
     c = 3
     d = 4
-    if 20 > 1:
+    raja_arvo = 20
+    if raja_arvo > 1:
         print("on")
     return a + b + c + d
 
 
 class LiikaaAttribuutteja:
+    # pylint: disable=too-few-public-methods
     def __init__(self):
         self.eka = 1
         self.toka = 2
